@@ -16,10 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path,include
 from rest_framework import routers
-from shop_api.views import ListViewSet
+from shop_api.views import ListViewSet,UserViewSet,RatingViewSet
 
 router = routers.DefaultRouter()
 router.register(r'list',ListViewSet, base_name="list")
+router.register(r'user',UserViewSet,base_name="user")
+router.register(r'rating'RatingViewSet,base_name="rating")
 urlpatterns = [
     re_path(r'api/', include(router.urls)),
     re_path(r'admin/', admin.site.urls),
