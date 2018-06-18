@@ -1,0 +1,21 @@
+body{
+    background-image: url('https://lh3.googleusercontent.com/-IzW_GQEdhP8/VM5hZTGvXII/AAAAAAAABto/3yM6sf7_vhA/s1600/free-download-1600x900-resolution-of-high-quality-background-cool.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.center{
+    display:inline-block;
+    margin:  auto;
+   
+}
+.padding{
+    padding:10px;
+
+}
+.nav-bar{
+
+    background-color: #0f121f;
+    width:100%;
+    height:50px;
+
+}
